@@ -11,3 +11,31 @@
 
 
 <!-- Created this using convert to TestNg-->
+
+
+
+<!-- Cross-Browser Parallel Execution-->
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="CrossBrowserSuite" parallel="tests" thread-count="2">
+
+
+    <test name="ChromeTests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="uiFeatureSteps.AmazonTestRunner"/>
+        </classes>
+    </test>
+
+
+    <test name="FirefoxTests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="uiFeatureSteps.AmazonTestRunner"/>
+        </classes>
+    </test>
+
+</suite>
+-->
