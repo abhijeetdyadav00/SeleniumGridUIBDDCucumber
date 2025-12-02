@@ -22,7 +22,7 @@ pipeline {
 		
 		}
 		stage('Execution end'){
-			step{
+			steps{
 				echo 'Execution is compeleted'
 			}
 		}
