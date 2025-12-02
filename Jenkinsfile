@@ -21,7 +21,7 @@ pipeline {
                 } //Post Ends here
 		
 		}
-		stage(Execution end){
+		stage('Execution end'){
 			step{
 				echo 'Execution is compeleted'
 			}
