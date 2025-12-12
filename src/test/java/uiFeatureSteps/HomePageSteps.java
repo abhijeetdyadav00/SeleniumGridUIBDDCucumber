@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import driverManager.DriverFactory;
+import driverManager.DriverFactory2;
 import driverManager.PageFactoryManager;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -21,7 +22,7 @@ public class HomePageSteps {
 	HomePage homepage;
 	public HomePageSteps() {
 	
-		 homepage =  new PageFactoryManager().getHomePageObject(DriverFactory.getDriver());
+		 homepage =  new PageFactoryManager().getHomePageObject(DriverFactory2.getDriver());
 	}
 	
 	@Given("user is at the landing page")

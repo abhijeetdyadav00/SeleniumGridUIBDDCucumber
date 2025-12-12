@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="12.581" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="13.295" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Abhijeet Yadav\AppData\Local\Temp\surefire2664945267041783859\surefirebooter-20251210233700252_3.jar C:\Users\Abhijeet Yadav\AppData\Local\Temp\surefire2664945267041783859 2025-12-10T23-36-59_988-jvmRun1 surefire-20251210233700252_1tmp surefire_0-20251210233700252_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Abhijeet Yadav\AppData\Local\Temp\surefire16195359155785288897\surefirebooter-20251211000815544_3.jar C:\Users\Abhijeet Yadav\AppData\Local\Temp\surefire16195359155785288897 2025-12-11T00-08-15_344-jvmRun1 surefire-20251211000815544_1tmp surefire_0-20251211000815544_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Abhijeet Yadav\eclipse-workspace\SeleniumGridUIBDDCucumber\target\test-classes;C:\Users\Abhijeet Yadav\eclipse-workspace\SeleniumGridUIBDDCucumber\target\classes;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\cucumber-java\7.23.0\cucumber-java-7.23.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\cucumber-core\7.23.0\cucumber-core-7.23.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\cucumber-gherkin\7.23.0\cucumber-gherkin-7.23.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.23.0\cucumber-gherkin-messages-7.23.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\datatable\7.23.0\datatable-7.23.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\cucumber-plugin\7.23.0\cucumber-plugin-7.23.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\docstring\7.23.0\docstring-7.23.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\cucumber\cucumber-testng\7.23.0\cucumber-testng-7.23.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Abhijeet Yadav\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Abhijeet Yadav\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Abhijeet Yadav\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\Abhijeet Yadav\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,18 +31,21 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Abhijeet Yadav\AppData\Local\Temp\surefire2664945267041783859\surefirebooter-20251210233700252_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Abhijeet Yadav\AppData\Local\Temp\surefire16195359155785288897\surefirebooter-20251211000815544_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
     <property name="user.name" value="Abhijeet Yadav"/>
     <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\Abhijeet Yadav\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
     <property name="java.io.tmpdir" value="C:\Users\ABHIJE~1\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.12"/>
     <property name="user.dir" value="C:\Users\Abhijeet Yadav\eclipse-workspace\SeleniumGridUIBDDCucumber"/>
@@ -57,29 +60,220 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;verify title of page&quot;, &quot;Homepage functionality&quot;](1)" classname="uiFeatureSteps.AmazonTestRunner" time="2.701">
+  <testcase name="runScenario[&quot;verify title of page&quot;, &quot;Homepage functionality&quot;](1)" classname="uiFeatureSteps.AmazonTestRunner" time="4.77">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;DESKTOP-JFALR25&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]&#10;Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-JFALR25', ip: '192.168.1.5'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)
+	at driverManager.DriverFactory2.initbrowser(DriverFactory2.java:27)
+	at uiFeatureSteps.ApplicationHooks.launchBrowser(ApplicationHooks.java:32)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+]]></failure>
     <system-out><![CDATA[
 Scenario: verify title of page             &amp#27;[90m# src/test/resources/uiFeatures/HomePage.feature:2&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is at the landing page&amp#27;[0m        &amp#27;[90m# uiFeatureSteps.HomePageSteps.preRequisite()&amp#27;[0m
-Amazon.in
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpage title should contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"Amazon"&amp#27;[0m &amp#27;[90m# uiFeatureSteps.HomePageSteps.validateTitle(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+      Host info: host: 'DESKTOP-JFALR25', ip: '192.168.1.5'
+      Build info: version: '4.34.0', revision: '707dcb4246*'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+      Driver info: org.openqa.selenium.remote.RemoteWebDriver
+      Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+      Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)
+      	at driverManager.DriverFactory2.initbrowser(DriverFactory2.java:27)
+      	at uiFeatureSteps.ApplicationHooks.launchBrowser(ApplicationHooks.java:32)
+      Caused by: java.io.UncheckedIOException: java.net.ConnectException
+      	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+      	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+      	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+      	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+      	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:842)
+      Caused by: java.net.ConnectException
+      	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574)
+      	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+      	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+      	... 8 more
+      Caused by: java.net.ConnectException
+      	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+      	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+      	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+      	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+      	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+      	... 3 more
+      Caused by: java.nio.channels.ClosedChannelException
+      	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+      	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+      	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+      	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+      	... 9 more&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at the landing page&amp#27;[0m        &amp#27;[90m# uiFeatureSteps.HomePageSteps.preRequisite()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mpage title should contains &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon"&amp#27;[0m &amp#27;[90m# uiFeatureSteps.HomePageSteps.validateTitle(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+      	at uiFeatureSteps.ApplicationHooks.tearDown(ApplicationHooks.java:44)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+      	at uiFeatureSteps.ApplicationHooks.closeBrowser(ApplicationHooks.java:53)&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Dec 10, 2025 11:37:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+Dec 11, 2025 12:08:17 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;verify cart icon is displaying&quot;, &quot;Homepage functionality&quot;](2)" classname="uiFeatureSteps.AmazonTestRunner" time="6.039">
+  <testcase name="runScenario[&quot;verify cart icon is displaying&quot;, &quot;Homepage functionality&quot;](2)" classname="uiFeatureSteps.AmazonTestRunner" time="4.081">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;DESKTOP-JFALR25&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]&#10;Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-JFALR25', ip: '192.168.1.5'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)
+	at driverManager.DriverFactory2.initbrowser(DriverFactory2.java:27)
+	at uiFeatureSteps.ApplicationHooks.launchBrowser(ApplicationHooks.java:32)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+]]></failure>
     <system-out><![CDATA[
 Scenario: verify cart icon is displaying &amp#27;[90m# src/test/resources/uiFeatures/HomePage.feature:6&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is at the landing page&amp#27;[0m      &amp#27;[90m# uiFeatureSteps.HomePageSteps.preRequisite()&amp#27;[0m
-Cart is displayed
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcart icon should get displayed&amp#27;[0m    &amp#27;[90m# uiFeatureSteps.HomePageSteps.validateCartElement()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+      Host info: host: 'DESKTOP-JFALR25', ip: '192.168.1.5'
+      Build info: version: '4.34.0', revision: '707dcb4246*'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+      Driver info: org.openqa.selenium.remote.RemoteWebDriver
+      Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+      Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)
+      	at driverManager.DriverFactory2.initbrowser(DriverFactory2.java:27)
+      	at uiFeatureSteps.ApplicationHooks.launchBrowser(ApplicationHooks.java:32)
+      Caused by: java.io.UncheckedIOException: java.net.ConnectException
+      	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+      	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+      	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+      	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+      	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:842)
+      Caused by: java.net.ConnectException
+      	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574)
+      	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+      	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+      	... 8 more
+      Caused by: java.net.ConnectException
+      	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+      	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+      	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+      	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+      	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+      	... 3 more
+      Caused by: java.nio.channels.ClosedChannelException
+      	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+      	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+      	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+      	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+      	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+      	... 9 more&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at the landing page&amp#27;[0m      &amp#27;[90m# uiFeatureSteps.HomePageSteps.preRequisite()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mcart icon should get displayed&amp#27;[0m    &amp#27;[90m# uiFeatureSteps.HomePageSteps.validateCartElement()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+      	at uiFeatureSteps.ApplicationHooks.tearDown(ApplicationHooks.java:44)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+      	at uiFeatureSteps.ApplicationHooks.closeBrowser(ApplicationHooks.java:53)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Dec 10, 2025 11:37:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
-]]></system-err>
   </testcase>
 </testsuite>

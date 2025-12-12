@@ -1,13 +1,14 @@
 package uiFeatureSteps;
 
 import driverManager.DriverFactory;
+import driverManager.DriverFactory2;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.SelectTest;
 
 public class SelectCategorySteps {
 
-	SelectTest selectmain=new SelectTest(DriverFactory.getDriver());
+	SelectTest selectmain=new SelectTest(DriverFactory2.getDriver());
 	
 	@When("User selects category")
 	public void user_selects_category() throws InterruptedException {

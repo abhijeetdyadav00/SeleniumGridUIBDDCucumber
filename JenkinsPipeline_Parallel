@@ -1,0 +1,46 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Pull code from Git') {
+            steps {
+                git credentialsId: '4aa08d17-ac63-4f37-81c6-58b2532af162', url: 'https://github.com/abhijeetdyadav00/SeleniumGridUIBDDCucumber.git'
+            }
+        }
+
+        stage('Execution of project')
+        {
+
+        parallel
+        {
+
+
+
+        stage('Executing the code on Chrome') {
+            steps {
+                bat "mvn -Dmaven.test.failure.ignore=true -DcliBrowser=Chrome test"
+            }
+                
+        }
+
+        stage('Executing the code on Firefox') {
+            steps {
+                bat "mvn -Dmaven.test.failure.ignore=true -DcliBrowser=Firefox test"
+            }
+                
+        }
+        }
+        }
+
+    stage('Execution tearing down') {
+            steps {
+                echo 'Shutting '
+            }
+                
+        }
+
+
+
+
+    }
+}

@@ -7,6 +7,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import driverManager.DriverFactory;
+import driverManager.DriverFactory2;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -17,7 +18,7 @@ public class ApplicationHooks {
 	
 	@Before
 	public void launchBrowser() throws IOException {
-		DriverFactory df=new DriverFactory();
+		DriverFactory2 df=new DriverFactory2();
 		String browser=ReadProperty.getPropData("browser");
 		
 		
@@ -39,7 +40,7 @@ public class ApplicationHooks {
 	public void tearDown(Scenario scenario) {
 		Boolean scenarioFailed=scenario.isFailed();
 		if(scenarioFailed) {
-			TakesScreenshot ts= (TakesScreenshot)DriverFactory.getDriver();
+			TakesScreenshot ts= (TakesScreenshot)DriverFactory2.getDriver();
 			byte[] source=ts.getScreenshotAs(OutputType.BYTES);
 			scenario.attach(source, "image/png", scenario.getName());
 			
@@ -48,7 +49,8 @@ public class ApplicationHooks {
 	
 	
 	@After(order=1)
-	public void closeBrowser() {
+	public void closeBrowser() throws InterruptedException {
+		Thread.sleep(5000);
 		driver.quit();
 	}
 	
