@@ -11,7 +11,7 @@ import java.util.Properties;
 public class ReadProperty {
 
 	public static String getPropData(String dataToBeRead) throws IOException {
-		String path=System.getProperty("user.dir")+ "\\src\\test\\resources\\config.properties";
+		String path=System.getProperty("user.dir")+ "//src//test//resources//config.properties";
 		FileInputStream fis=new FileInputStream(path);
 		Properties prop=new Properties();
 		prop.load(fis);
