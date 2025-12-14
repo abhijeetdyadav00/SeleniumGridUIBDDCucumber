@@ -14,7 +14,7 @@ pipeline {
             }
                 post { 
         always { 
-            emailext attachLog: true, attachmentsPattern: 'target/cucumberreport/report.html', body: '''<div style="font-family: Arial, sans-serif; line-height: 1.6;">
+            emailext attachLog: true, attachmentsPattern: 'dockerreportchrome/cucumberreport/report.html', body: '''<div style="font-family: Arial, sans-serif; line-height: 1.6;">
   <h2 style="color: #2E86C1;">🚀 Project Name: <span style="color: #1ABC9C;">Execution of a project</span></h2>
   
   
