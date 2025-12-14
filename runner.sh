@@ -4,7 +4,7 @@ echo "------------------------------------------------------"
 
 echo "Checking if hub is ready...."
 count=0
-while [ "$(curl -s http://192.168.1.5:4444/status | jq -r .value.ready)" != "true"]
+while [ "$(curl -s http://35.154.116.162:4444/status | jq -r .value.ready)" != "true"]
 do
 	count=$((count+1))
 	echo "Attempt: ${count}"
