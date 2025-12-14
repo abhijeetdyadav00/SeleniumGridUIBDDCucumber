@@ -28,7 +28,7 @@ public class HomePageSteps {
 	@Given("user is at the landing page")
 	public void preRequisite() throws IOException
 	{
-		WebDriver driver=DriverFactory.getDriver();
+		WebDriver driver=DriverFactory2.getDriver();
 		driver.get(ReadProperty.getPropData("testSiteUrl"));
 	}
 	
